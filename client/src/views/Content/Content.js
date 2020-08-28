@@ -7,7 +7,6 @@ import Instructions from '../../components/Instructions/Instructions';
 import axios from 'axios';
 import styles from './styles';
 import classes from './BackgroundVideo.module.css';
-import video from '../../assets/rollerCoaster.mp4';
 import GameContext from '../../contexts/GameContext';
 import InstructionsContext from '../../contexts/InstructionsContext';
 import DataContext from '../../contexts/DataContext';
@@ -72,7 +71,7 @@ function Content() {
       <div style={styles.containerChrome}>
         <div className={classes.Container}>
           <video autoPlay='autoplay' loop='loop' muted className={classes.Video}>
-            <source src={video} type='video/mp4' />
+            <source src={'https://static.videezy.com/system/resources/previews/000/004/296/original/20_20Dragon_20Coaster_20Part_204.mp4'} type='video/mp4' />
           </video>
           <div className={classes.Content}>
             <Grid>
