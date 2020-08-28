@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tapweeper/client/precache-manifest.c9695a9702ced29163fe98efa465e86d.js"
+  "/tapweeper/client/precache-manifest.25a0a0510008e3085d16d491e72c6252.js"
 );
 
 self.addEventListener('message', (event) => {
