@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "serverless deploy"
+    "deploy": "serverless deploy",
+    "test": "jest --env=node",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage --env=node",
+        "test:coverage-all": "jest --coverage --watchAll"
   },
   "author": "Juan Martin Gonzalez",
   "license": "MIT",
